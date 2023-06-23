@@ -1,0 +1,71 @@
+.divisions {
+    position: relative;
+  }
+
+.custom-slider-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.custom-slider-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 1100px;
+    margin: 0 300px;
+    overflow: hidden;
+}
+
+.custom-card {
+    flex: 0 0 26,4375%;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #ccc;
+    text-align: left;
+    margin-right: 20px; /* Добавлено расстояние между карточками */
+}
+
+.custom-card:last-child {
+    margin-right: 0; /* Убираем правое расстояние у последней карточки */
+}
+
+.custom-card img {
+    width: 260px;
+    height: 260px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-radius: 5px 5px 0 0;
+}
+
+.custom-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.custom-card p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.custom-card button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fd5b51;
+    color: #fff;
+}
+
+
+  
